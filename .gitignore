@@ -1,0 +1,5 @@
+# Keep the CV / personal documents out of the public repo
+static/cv/
+
+# macOS
+.DS_Store
