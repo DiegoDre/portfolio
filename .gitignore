@@ -3,5 +3,8 @@
 static/cv/cv.html
 static/cv/cv_en.html
 
+# Application context / personal working notes — not for the public repo
+Context/
+
 # macOS
 .DS_Store
