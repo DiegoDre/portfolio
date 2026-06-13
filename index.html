@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Diego Dreier — final-semester Media Informatics student focused on LLM-based workflow automation, software integration, and React / React Native development.">
+        content="Diego Dreier — final-semester Media Informatics student and software developer with full-stack experience in React, React Native, TypeScript and REST APIs. Currently exploring how large language models can integrate into reliable software systems in a controllable, traceable way.">
     <title>Diego Dreier - Portfolio</title>
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23f3f4f6'/><text x='16' y='22' font-family='Arial, Helvetica, sans-serif' font-size='16' font-weight='700' text-anchor='middle' fill='%23111827'>DD</text><rect x='9' y='25' width='14' height='2' rx='1' fill='%233b82f6'/></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -48,20 +50,26 @@
             class="w-48 h-50 rounded-full object-cover shadow-md hover:scale-110">
         <div class="md:ml-8 text-center md:text-left mt-6 md:mt-0">
             <h1 class="text-3xl font-bold">Diego Dreier</h1>
-            <p class="text-blue-500 dark:text-blue-400 font-medium mt-1">Media Informatics Student · AI-assisted
-                Automation · Software Integration</p>
-            <p class="text-gray-600 dark:text-gray-300 mt-2">I am a final-semester B.Sc. Media Informatics student at
-                Berliner Hochschule für Technik (BHT). In my bachelor thesis, I explore how Large Language Models can
-                support workflow automation in data processing tasks.</p>
-            <p class="text-gray-600 dark:text-gray-300 mt-3">My interests include AI-assisted automation, software
-                integration, and practical applications that connect modern AI capabilities with reliable software
-                systems. Through university projects and my internship at donista.org, I have gained hands-on experience
-                with React, React Native, TypeScript, REST APIs, frontend QA, unit testing, and test documentation.</p>
+            <p class="text-blue-500 dark:text-blue-400 font-medium mt-1">Media Informatics · Software Development</p>
+            <p class="text-gray-600 dark:text-gray-300 mt-2">I'm a final-semester Media Informatics student at BHT
+                Berlin with a background in software development. I like building things end to end, from a React or
+                React Native frontend down to the Node.js backend, and seeing them actually run in front of real users.
+                During my internship at donista.org I helped take a web app all the way to a published iOS and Android
+                app, which taught me as much about shipping and quality as about writing code.</p>
+            <p class="text-gray-600 dark:text-gray-300 mt-3">More recently my interest has shifted toward AI, in
+                particular the practical side of large language models. Not bolting an LLM onto everything, but working
+                out where it genuinely adds value and where deterministic, predictable logic should stay in charge. I'm
+                exploring this in depth in my bachelor's thesis, where I automate a workflow as deterministically as
+                possible and bring in an LLM only where rule-based logic runs out, with control and traceability as the
+                goal.</p>
+            <p class="text-gray-600 dark:text-gray-300 mt-3">Mostly, I like learning by doing. When my team built a game
+                in Unity and C# without any of us having touched either before, we just figured it out as we went, and
+                the result became a reference project for the years after us. If something's unfamiliar, I'd rather dig
+                into it on a real problem than study it from a distance.</p>
             <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-4">
-                <!-- TODO: Re-add CV download once a redacted version (without personal details) is ready -->
-                <!-- <a href="static/cv/Lebenslauf_Diego_Dreier.pdf" download
+                <a href="static/cv/cv_public_en.pdf" download
                     class="inline-block bg-black dark:bg-white text-white dark:text-black px-4 py-2 rounded-lg hover:opacity-80 transition">Download
-                    CV</a> -->
+                    CV</a>
                 <a href="#projects"
                     class="inline-block bg-black dark:bg-white text-white dark:text-black px-4 py-2 rounded-lg hover:opacity-80 transition">View
                     Projects</a>
@@ -127,8 +135,7 @@
                 class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-sm font-medium px-3 py-1 rounded-full border border-gray-200 dark:border-gray-600">Unit
                 Testing</span>
             <span
-                class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-sm font-medium px-3 py-1 rounded-full border border-gray-200 dark:border-gray-600">Test
-                Documentation</span>
+                class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-sm font-medium px-3 py-1 rounded-full border border-gray-200 dark:border-gray-600">Documentation</span>
         </div>
 
         <!-- Group 2: Project / university experience -->
@@ -316,7 +323,8 @@
                     <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Bachelor thesis in progress: exploring the
                         conception and evaluation of a workflow-based automation process that combines deterministic
                         rule logic with LLM-supported semantic subtasks to reduce manual effort in processing imported
-                        affiliate merchant data.</p>
+                        affiliate merchant data. The goal is to keep the LLM a controlled tool — stepping in only where
+                        rule-based logic reaches its limits — so the overall process stays controllable and traceable.</p>
 
                     <div class="flex flex-wrap gap-2 mb-4">
                         <span
@@ -357,8 +365,7 @@
                         Berlin-based startup connecting online shopping with social impact through affiliate-based
                         donations, I built a native mobile application for Android and iOS with React Native based on an
                         existing React web application. The app is now in production and available in both the Apple App
-                        Store and Google Play Store. My work also involved frontend QA, unit testing, and test
-                        documentation.</p>
+                        Store and Google Play Store. My work also involved frontend QA and documentation.</p>
 
                     <div class="flex flex-wrap gap-2 mb-4">
                         <span
@@ -379,11 +386,7 @@
                             class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-xs font-medium px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600">Frontend
                             QA</span>
                         <span
-                            class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-xs font-medium px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600">Unit
-                            Testing</span>
-                        <span
-                            class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-xs font-medium px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600">Test
-                            Documentation</span>
+                            class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-xs font-medium px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600">Documentation</span>
                     </div>
 
                     <div class="flex flex-wrap gap-2">
@@ -523,7 +526,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold mb-2">Hellfall — 2D Combat Platformer Game</h3>
                     <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Developed a 2D combat platformer in a
-                        six-person team, learning Unity and C# during the project. The project strengthened my ability
+                        six-person team, learning Unity and C# from scratch for this project. The project strengthened my ability
                         to quickly learn unfamiliar technologies, collaborate with Git-based workflows, and contribute
                         pragmatically across different areas of development.</p>
 

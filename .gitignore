@@ -1,5 +1,7 @@
-# Keep the CV / personal documents out of the public repo
-static/cv/
+# Keep the full CV (with phone number / personal details) out of the public repo
+# The public, redacted variants (cv_public_en.*) stay tracked so the download works after deploy
+static/cv/cv.html
+static/cv/cv_en.html
 
 # macOS
 .DS_Store
