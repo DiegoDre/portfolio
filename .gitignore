@@ -2,6 +2,8 @@
 # The public, redacted variants (cv_public_en.*) stay tracked so the download works after deploy
 static/cv/cv.html
 static/cv/cv_en.html
+static/cv/cv.pdf
+static/cv/cv_en.pdf
 
 # Application context / personal working notes — not for the public repo
 Context/
