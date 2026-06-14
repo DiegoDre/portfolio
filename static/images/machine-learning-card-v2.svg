@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-label="Classification scatter plot with a decision boundary and a k-nearest-neighbours query point">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e8eef6"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#d2dbe6"/>
+    </pattern>
+    <radialGradient id="qglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="280" fill="url(#bg)"/>
+  <rect width="640" height="280" fill="url(#dots)"/>
+
+  <!-- faint plot gridlines -->
+  <g stroke="#e3e9f1" stroke-width="1.4">
+    <line x1="170" y1="52" x2="170" y2="224"/>
+    <line x1="270" y1="52" x2="270" y2="224"/>
+    <line x1="370" y1="52" x2="370" y2="224"/>
+    <line x1="470" y1="52" x2="470" y2="224"/>
+    <line x1="95" y1="100" x2="548" y2="100"/>
+    <line x1="95" y1="150" x2="548" y2="150"/>
+    <line x1="95" y1="200" x2="548" y2="200"/>
+  </g>
+
+  <!-- axes with ticks -->
+  <g stroke="#94a3b8" stroke-width="2" stroke-linecap="round">
+    <line x1="95" y1="48" x2="95" y2="224"/>
+    <line x1="95" y1="224" x2="552" y2="224"/>
+    <line x1="170" y1="224" x2="170" y2="230"/>
+    <line x1="270" y1="224" x2="270" y2="230"/>
+    <line x1="370" y1="224" x2="370" y2="230"/>
+    <line x1="470" y1="224" x2="470" y2="230"/>
+    <line x1="89" y1="150" x2="95" y2="150"/>
+    <line x1="89" y1="100" x2="95" y2="100"/>
+    <line x1="89" y1="200" x2="95" y2="200"/>
+  </g>
+
+  <!-- decision boundary -->
+  <line x1="140" y1="212" x2="500" y2="66" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="9 7" stroke-linecap="round"/>
+
+  <!-- k-NN connectors from the query point to its nearest neighbours -->
+  <g stroke="#f59e0b" stroke-width="1.6" stroke-dasharray="4 4" opacity="0.9">
+    <line x1="330" y1="150" x2="300" y2="140"/>
+    <line x1="330" y1="150" x2="352" y2="180"/>
+    <line x1="330" y1="150" x2="370" y2="162"/>
+  </g>
+
+  <!-- class B (hollow slate) above the boundary -->
+  <g fill="#ffffff" stroke="#475569" stroke-width="2.4">
+    <circle cx="150" cy="96" r="7"/>
+    <circle cx="188" cy="78" r="7"/>
+    <circle cx="222" cy="104" r="7"/>
+    <circle cx="196" cy="132" r="7"/>
+    <circle cx="258" cy="82" r="7"/>
+    <circle cx="165" cy="148" r="7"/>
+    <circle cx="244" cy="66" r="7"/>
+    <circle cx="288" cy="112" r="7"/>
+    <circle cx="300" cy="140" r="7"/>
+  </g>
+
+  <!-- class A (filled blue) below the boundary -->
+  <g fill="#3b82f6">
+    <circle cx="300" cy="196" r="7"/>
+    <circle cx="352" cy="180" r="7"/>
+    <circle cx="388" cy="202" r="7"/>
+    <circle cx="424" cy="174" r="7"/>
+    <circle cx="458" cy="192" r="7"/>
+    <circle cx="370" cy="162" r="7"/>
+    <circle cx="414" cy="210" r="7"/>
+    <circle cx="476" cy="166" r="7"/>
+    <circle cx="336" cy="208" r="7"/>
+  </g>
+
+  <!-- query point being classified (k-NN) -->
+  <circle cx="330" cy="150" r="20" fill="url(#qglow)"/>
+  <circle cx="330" cy="150" r="12.5" fill="none" stroke="#f59e0b" stroke-width="2.6"/>
+  <circle cx="330" cy="150" r="5.5" fill="#f59e0b"/>
+</svg>
