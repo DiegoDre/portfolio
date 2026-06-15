@@ -1,9 +1,16 @@
-# Keep the full CV (with phone number / personal details) out of the public repo
-# The public, redacted variants (cv_public_en.*) stay tracked so the download works after deploy
-static/cv/cv.html
-static/cv/cv_en.html
-static/cv/cv.pdf
-static/cv/cv_en.pdf
+# Dependencies & build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Keep the full CV (with phone number / personal details) out of the public repo.
+# The public CV is delivered only as a PDF (diego_dreier_cv_public.pdf, tracked);
+# all CV *.html sources — including the redacted cv_public_en.html — stay out of the repo.
+public/static/cv/cv.html
+public/static/cv/cv_en.html
+public/static/cv/cv.pdf
+public/static/cv/cv_en.pdf
+public/static/cv/cv_public_en.html
 
 # Application context / personal working notes — not for the public repo
 Context/
@@ -13,6 +20,7 @@ application/
 
 # Recommendation letters / references — private, not for the public repo
 recommendation/
+Recommendation/
 
 # macOS
 .DS_Store

@@ -1,0 +1,12 @@
+dist
+node_modules
+public/static
+package-lock.json
+*.tsbuildinfo
+
+# Gitignored private working folders — not project source
+Context
+application
+recommendation
+Recommendation
+.claude
