@@ -8,5 +8,11 @@ static/cv/cv_en.pdf
 # Application context / personal working notes — not for the public repo
 Context/
 
+# Job application materials (cover letter etc.) — private, not for the public repo
+application/
+
+# Recommendation letters / references — private, not for the public repo
+recommendation/
+
 # macOS
 .DS_Store
